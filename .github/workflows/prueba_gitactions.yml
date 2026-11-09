@@ -1,0 +1,11 @@
+name: Prueba GitHub Actions
+on:
+  push:
+  
+jobs:
+  mostrar_mensaje:
+    runs-on: ubuntu-latest
+    steps: 
+    - name: Escribir hola
+      run:
+        echo "Hola"
